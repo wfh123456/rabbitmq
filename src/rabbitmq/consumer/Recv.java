@@ -9,7 +9,7 @@ public class Recv {
 
 	   private final static String QUEUE_NAME = "hello";
 	    public static void main(String[] args) throws java.io.IOException, java.lang.InterruptedException  {
-	        
+	         // dev-0.0.1
 	        // 创建连接工厂
 	         ConnectionFactory factory = new ConnectionFactory();  
 	            factory.setHost("192.168.134.20");  
