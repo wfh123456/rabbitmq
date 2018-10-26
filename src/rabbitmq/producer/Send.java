@@ -17,7 +17,6 @@ public class Send {
             ConnectionFactory factory = new ConnectionFactory();  
             // 设置MabbitMQ所在主机ip或者主机名  
             factory.setHost("192.168.134.20");  
-            //factory.setHost("localhost"); 
             factory.setVirtualHost("jl");
             factory.setUsername("admin");
             factory.setPassword("admin");

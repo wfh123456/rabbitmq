@@ -27,7 +27,6 @@ public class Recv {
 
 	            System.out.println(" 开始创建消息队列消费者 ------------->>>");
 	            // 指定消费队列 
-	            
 	            QueueingConsumer consumer = new QueueingConsumer(channel);  
 	            channel.basicConsume(QUEUE_NAME, true, consumer);  
 	            while(true){  
